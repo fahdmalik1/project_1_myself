@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fahd Malik's website">
+    <meta name="keywords" content="Fahd, Malik, website, personal">
+    <meta name="author" content="Fahd Malik">
+    
+    <title>Fahd Malik's website</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <header id="home">
+        <nav id="main-nav">
+            <span id="main-logo" title="logo" aria-label="Website logo with a capital FM (the initals of the author) this is a non-clickable element">FM</span>
+            <a class="main-nav-links" title="Home" href="#home" aria-label="this takes you to the home section of the website">Home</a>
+            <a class="main-nav-links" title="About me" href="#about" aria-label="this takes you to the about section of the website">About</a>
+            <a class="main-nav-links" title="Experience" href="#experience" aria-label="this takes you to the experience / skills section of the website">Experience</a>
+            <a class="main-nav-links" title="contact" href="#contact" aria-label="this takes you to the contact / get in touch section of the website (which has a contact form to contact the author)">Contact</a>
+        </nav>
+        <div id="header-div">
+            <h1>Fahd Malik</h1>
+            <h2>Fullstack Software Engineer Student</h2>
+            <a title="About me" href="#about" aria-label="this is another link that takes you to the about section of the website, it is located just under the fullstack software engineer student h2 heading near the top of the page.">Learn more</a>
+        </div>
+        
+    </header>
+
+    <section id="about">
+        <div>
+        <h3>About</h3>
+        <img src="images/about-pic.jpeg" alt="a man using two laptops to write code">
+        <p>I am studying full-stack software development to become a Full-stack software Developer. The curriculum includes: Html, CSS, JavaScript, Python, SQL and Django.</p>
+        <p>From the moment I wrote “Hello World!” in the my first Python application, I was hooked into the world of software development, But software development has never been “just a job for me!” It has offered me an engaging challenge to continually learn and improve my skills in creating high quality software. What started as a simple “Hello World!” has become a full fledged passion that only gets more exciting as time goes by.</p>
+        <p>I am also a father of an absolutely amazing 2 year old, who has started nursery lately and who has started talking recently. He is my little bundle of joy, who keeps me on my toes. I love taking him to the park and spending good quality family time together.</p>
+    </div>
+    </section>
+
+    <section id="experience">
+        <div>
+        <h3>Experience</h3>
+        <img src="images/ex-pic.jpeg" alt="picture of open laptop with code with a notepad and pen alongside it.">
+        <p>I am currently still on my learning journey and therefore have skills in the folllowing areas as shown in the table below. I am sure as my skills improve and grow so will this table.</p>
+    </div>
+
+        <table>
+            <th>Current Skills</th>
+            <tr>
+                <td class="col">HTML</td>
+            </tr>
+            <tr>
+                <td class="col">CSS</tc>
+            </tr>
+        </table>
+
+
+    </section>
+
+    <section id="contact">
+        <h3>Get in touch</h3>
+        <img src="images/contact.jpeg" alt="mobile phone with the word hello on screen.">
+        <br>
+
+        <form action="thanks.html" method="POST">
+            <fieldset>
+                <legend>Your details</legend>
+                <label for="firtname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" placeholder="enter your first name" required>
+                <br>
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="enter your last name" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="enter your email" required>
+                <br>
+
+                <label for="message">How may I be of service?</label>
+                <br>
+                <textarea id="message" name="message" cols="40" rows="10" placeholder="Your Message..."></textarea>
+                <br>
+
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset Form">
+                </fieldset>
+            </form>
+    </section>
+
+    <footer>
+        <span>Find me on:</span>
+        <a href="https://www.linkedin.com/in/fahd-malik-4a2292132/" target="_blank" aria-label="external link to my LinkedIn profile page (opens in a new tab / window)">Linkedin</a>
+        <a href="https://github.com/fahdmalik1" target="_blank" aria-label="external link to my github profile page (opens in a new tab / window)">Github</a>
+        <p>Copywrite 2022 by Fahd Malik</p>
+    </footer>
+</body>
+</html>

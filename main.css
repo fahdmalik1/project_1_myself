@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#home {
+    padding: 0 1rem 0 1rem;
+    margin: 0 0;
+}
+
+#header-div {
+    background-color: red;
+    min-height: 80vh;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0;
+    padding: 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url(images/header-pic.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Oleo Script Swash Caps', cursive, sans-serif;   
+}
+
+h1 {
+    color: #388e3c;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: #388e3c;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+
+}
+
+h3 {
+    color: #212121;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+p {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .2rem;
+
+}
+
+
+#main-nav {
+    background-color: #4caf50;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #4caf50;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+#main-nav > a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+#main-nav > a:hover {
+    color: #4caf50;
+    font-size: 2rem;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+
+#main-nav > #main-logo {
+    border: 2px solid white;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 0.5rem 0.5rem;
+    color: #388e3c;
+    font-family: 'Oleo Script Swash Caps', cursive, sans-serif;
+
+}
+
+h2 ~ a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #388e3c;
+    color: #FFFFFF;
+    border: 1px solid #388e3c;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 2px 2px #757575;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+h2 ~ a:hover {
+    background-color: #FFFFFF;
+    color: #388e3c;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+
+#about {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECECDA;
+    padding: 0 1rem 0 1rem;
+    margin: 0 0;
+}
+
+#about > div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+#about > div > h3 {
+    text-decoration: underline;
+    text-decoration-color: #795548;
+    text-underline-offset: 1rem;
+}
+
+#about > div > img {
+    max-width: 100%;
+    max-height: 100%;
+    flex-grow: 1;
+    flex-basis: content;
+}
+
+#experience {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECECDA;
+    padding: 0 1rem 0 1rem;
+    margin: 0 0;
+}
+
+#experience > div {
+    width: 100%
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+#experience > div > h3 {
+    text-decoration: underline;
+    text-decoration-color: #795548;
+    text-underline-offset: 1rem;
+}
+
+#experience > div > img {
+    max-width: 100%;
+    max-height: 100%;
+    flex-grow: 1;
+    flex-basis: content;
+
+}
+
+#experience table {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
+
+.col {
+    width: 250px;
+    vertical-align: bottom;
+}
+
+#contact {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFD984;
+    font-family: 'Open Sans', sans-serif;
+    padding: 3rem;
+    margin: 0 0;
+}
+
+#contact > h3 {
+    text-decoration: underline;
+    text-decoration-color: #795548;
+    text-underline-offset: 1rem;
+}
+
+#contact > img {
+    align-self: center;
+    max-width: 100%;
+    max-height:  100%;
+}
+
+#contact > form {
+    align-self: center;
+    background-color: #779974;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 30vw;
+    text-align: center;
+}
+
+legend {
+    color: #FFFFFF;
+}
+
+input[type=text], input[type=email] {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 1rem 3rem 1rem 3rem;
+    margin: 1rem;
+    font-weight: bold;
+
+}
+
+input[type=email] {
+    padding-left: 3.5rem;
+    padding-right: 6rem;
+}
+
+::placeholder {
+    color: black;
+    text-transform: capitalize;
+    font-size: 1rem;
+
+}
+
+textarea::placeholder {
+    color: black;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+input[type=submit] {
+    font-size: 1.5rem;
+    background-color: #388e3c;
+    color: #FFFFFF;
+    border: 1px solid #388e3c;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 2px 2px #757575;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #4caf50;
+}
+
+input[type=reset] {
+    font-size: 1.5rem;
+    background-color: darkred;
+    color: #FFFFFF;
+    border: 1px solid darkred;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 2px 2px #757575;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+input[type=reset]:hover {
+    background-color: indianred;
+}
+
+footer {
+    background-color: #388e3c;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #4caf50;
+    border-radius: 10px;
+    width: 100%;
+    flex-basis: content;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+
+}
+
+footer > a:hover {
+    color: #4caf50;
+    font-size: 2rem;
+    background-color: #FFFFFF;
+    font-weight: bold;
+}
+
+footer > span {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+footer > p {
+    text-transform: uppercase;
+}
+
+/*Add in media queries to make the layout responsive on mobile and tablets*/
+
